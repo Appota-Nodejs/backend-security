@@ -13,3 +13,7 @@ XSS (là viết tắt của cụm từ Cross-Site Scripting) hiểu đơn giản
 Hiện tại có 3 loại XSS chính là: Stored XSS, Reflected XSS, DOM-based XSS
 
 ### **2.1. Stored XSS** - ([link](/backend-security/XSS/2.1-storedXSS.md))
+
+### **2.2. Reflected XSS** - ([link](/backend-security/XSS/2.2-reflectedXSS.md))
+
+### **2.3. DOM Based XSS** ([link](/backend-security/XSS/2.3-domBasedXSS.md))
