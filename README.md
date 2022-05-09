@@ -35,6 +35,10 @@ Ngoài ra, nếu muốn cho phép người dùng nhập vào HTML, hãy sử d�
 Các thư viện này sẽ lọc các thẻ HTML, CSS, JS nguy hiểm để chống XSS. Người dùng vẫn có thể
 sử dụng các thẻ `<p>`, `<span>`, `<ul>` để trình bày văn bản.
 
+- **Validation (xác nhận)**: Đây là những kiểm tra được chạy để đảm bảo dữ liệu bạn có là phù hợp. Chẳng hạn, email là email, date là date và number(hoặc được chuyển đổi) một là integer(số nguyên).
+
+- **Sanitization / Escaping**: Đây là các filter (bộ lọc) được áp dụng cho dữ liệu để làm cho dữ liệu 'an toàn' trong tình huống cụ thể. Chẳng hạn, để hiển thị code HTML trong textarea, cần phải thay thế tất cả các thẻ HTML bằng các thực thể tương đương với chúng
+
 **3. CSP (Content Security Policy)**
 <br>
 Hiện tại, ta có thể dùng chuẩn CSP để chống XSS. Với CSP, trình duyệt chỉ chạy JavaScript từ
